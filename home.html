@@ -9,7 +9,7 @@
 
     <meta name="keywords" content="WebSite Template" />
     <meta name="description" content="Porto - Multipurpose Website Template" />
-    <meta name="author" content="okler.net" />
+    <meta name="author" content="3XADesign.com" />
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
@@ -211,37 +211,49 @@
             display: block; /* Asegura que el logo sea un elemento de bloque */
           }
         </style>
-        <section
-          id="home"
-          class="section border-0 bg-dark overlay overlay-show overlay-op-8 overflow-hidden m-0"
-          style="height: 100vh"
-        >
-          <div
-            class="background-image-wrapper position-absolute top-0 left-0 right-0 bottom-0 animated kenBurnsToLeft"
-            style="
-              background-image: url(img/demos/band/slides/slide-1.jpg);
-              background-size: cover;
-              background-position: center;
-              animation-duration: 20s;
-            "
-          ></div>
-          <div class="container position-relative z-index-3 h-100">
-            <div class="row align-items-center justify-content-center h-100">
-              <div class="col-auto pt-5 mt-3">
-                <h1>
-                  <span class="d-none">Silvia Brasero</span>
-                </h1>
-                <img
-                  src="img/logos/sblogo.png"
-                  alt="Logo de Silvia Brasero"
-                  class="logo-img appear-animation"
-                  data-appear-animation="fadeInUpShorter"
-                  data-appear-animation-delay="500"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+<section
+id="home"
+class="section border-0 bg-dark overlay overlay-show overlay-op-8 overflow-hidden m-0"
+style="height: 100vh; position: relative;"
+>
+<!-- Contenedor de Slideshow -->
+<div class="background-slideshow-wrapper">
+  <div
+    class="background-slide active"
+    style="background-image: url('img/demos/band/slides/slide-1.jpg');"
+  ></div>
+  <div
+    class="background-slide"
+    style="background-image: url('img/demos/band/slides/slide-2.jpg');"
+  ></div>
+  <div
+    class="background-slide"
+    style="background-image: url('img/demos/band/slides/slide-3.jpg');"
+  ></div>
+  <div
+    class="background-slide"
+    style="background-image: url('img/demos/band/slides/slide-4.jpg');"
+  ></div>
+</div>
+
+<!-- Contenedor Principal -->
+<div class="container position-relative z-index-3 h-100">
+  <div class="row align-items-center justify-content-center h-100">
+    <div class="col-auto pt-5 mt-3">
+      <h1>
+        <span class="d-none">Silvia Brasero</span>
+      </h1>
+      <img
+        src="img/sblogo.png"
+        alt="Logo de Silvia Brasero"
+        class="logo-img appear-animation"
+        data-appear-animation="fadeInUpShorter"
+        data-appear-animation-delay="500"
+      />
+    </div>
+  </div>
+</div>
+</section>
 
         <section class="section bg-secondary border-0 py-0 m-0">
           <div class="container container-xl-custom">
@@ -376,6 +388,55 @@
                 </p>
               </div>
             </div>
+            
+            <!-- Galería de Imágenes -->
+            <div class="row">
+              <div class="col-12 text-center mb-5">
+                <h3 class="font-weight-bold text-7 text-color-light appear-animation"
+                    data-appear-animation="fadeInUpShorter"
+                    data-appear-animation-delay="1150">
+                  Galería de Imágenes
+                </h3>
+              </div>
+              <!-- Imagen 1 -->
+              <div class="col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="gallery-item">
+                  <img src="img/imagen1.jpg" alt="Descripción de la imagen 1" class="img-fluid rounded">
+                </div>
+              </div>
+              <!-- Imagen 2 -->
+              <div class="col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="gallery-item">
+                  <img src="img/imagen2.jpg" alt="Descripción de la imagen 2" class="img-fluid rounded">
+                </div>
+              </div>
+              <!-- Imagen 3 -->
+              <div class="col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="gallery-item">
+                  <img src="img/imagen3.jpg" alt="Descripción de la imagen 3" class="img-fluid rounded">
+                </div>
+              </div>
+              <!-- Imagen 4 -->
+              <div class="col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="gallery-item">
+                  <img src="img/imagen4.jpg" alt="Descripción de la imagen 4" class="img-fluid rounded">
+                </div>
+              </div>
+              <!-- Imagen 5 -->
+              <div class="col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="gallery-item">
+                  <img src="img/imagen5.jpg" alt="Descripción de la imagen 5" class="img-fluid rounded">
+                </div>
+              </div>
+              <!-- Imagen 6 -->
+              <div class="col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
+                <div class="gallery-item">
+                  <img src="img/imagen6.jpg" alt="Descripción de la imagen 6" class="img-fluid rounded">
+                </div>
+              </div>
+            </div>
+            <!-- Fin de la Galería -->
+            
           </div>
         </section>
         <section
@@ -546,188 +607,6 @@ Entre micro abierto y micro abierto puedes encontrarme...
 						</div>
 					</div> -->
         </div>
-
-        <!-- <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-6 col-lg-3 px-0">
-              <div
-                class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-lighten thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom thumb-info-hide-wrapper-bg"
-              >
-                <div
-                  class="thumb-info-wrapper overlay overlay-show overlay-op-5"
-                >
-                  <img
-                    src="img/demos/band/authors/author-1.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="thumb-info-title bg-transparent">
-                    <div
-                      class="thumb-info-inner line-height-1 custom-font-size-1 custom-font-primary"
-                    >
-                      JOHN SMITH DOE
-                    </div>
-                    <div
-                      class="thumb-info-type opacity-7 text-transform-none line-height-1 text-2 custom-font-primary"
-                    >
-                      Vocal
-                    </div>
-                    <div class="thumb-info-show-more-content">
-                      <p class="text-1 line-height-9 my-3">
-                        Aenean elit ipsum, congue lacinia purus et, eleifend
-                        tempor lectus. Vivamus sed magna sed magna congue
-                        vehicula et ac mi. Lorem ipsum dolor sit amet.
-                      </p>
-                      <a
-                        href="https://www.instagram.com/"
-                        class="text-decoration-none font-weight-bold text-color-light custom-font-size-2"
-                        target="_blank"
-                      >
-                        <i
-                          class="fab fa-instagram text-4 position-relative top-1 me-1"
-                        ></i>
-                        INSTAGRAM
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 px-0">
-              <div
-                class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-lighten thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom thumb-info-hide-wrapper-bg"
-              >
-                <div
-                  class="thumb-info-wrapper overlay overlay-show overlay-op-5"
-                >
-                  <img
-                    src="img/demos/band/authors/author-4.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="thumb-info-title bg-transparent">
-                    <div
-                      class="thumb-info-inner line-height-1 custom-font-size-1 custom-font-primary"
-                    >
-                      BRAD SMITH
-                    </div>
-                    <div
-                      class="thumb-info-type opacity-7 text-transform-none line-height-1 text-2 custom-font-primary"
-                    >
-                      Guitar
-                    </div>
-                    <div class="thumb-info-show-more-content">
-                      <p class="text-1 line-height-9 my-3">
-                        Aenean elit ipsum, congue lacinia purus et, eleifend
-                        tempor lectus. Vivamus sed magna sed magna congue
-                        vehicula et ac mi. Lorem ipsum dolor sit amet.
-                      </p>
-                      <a
-                        href="https://www.instagram.com/"
-                        class="text-decoration-none font-weight-bold text-color-light custom-font-size-2"
-                        target="_blank"
-                      >
-                        <i
-                          class="fab fa-instagram text-4 position-relative top-1 me-1"
-                        ></i>
-                        INSTAGRAM
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 px-0">
-              <div
-                class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-lighten thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom thumb-info-hide-wrapper-bg"
-              >
-                <div
-                  class="thumb-info-wrapper overlay overlay-show overlay-op-5"
-                >
-                  <img
-                    src="img/demos/band/authors/author-3.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="thumb-info-title bg-transparent">
-                    <div
-                      class="thumb-info-inner line-height-1 custom-font-size-1 custom-font-primary"
-                    >
-                      JEREMY DOE
-                    </div>
-                    <div
-                      class="thumb-info-type opacity-7 text-transform-none line-height-1 text-2 custom-font-primary"
-                    >
-                      Bass
-                    </div>
-                    <div class="thumb-info-show-more-content">
-                      <p class="text-1 line-height-9 my-3">
-                        Aenean elit ipsum, congue lacinia purus et, eleifend
-                        tempor lectus. Vivamus sed magna sed magna congue
-                        vehicula et ac mi. Lorem ipsum dolor sit amet.
-                      </p>
-                      <a
-                        href="https://www.instagram.com/"
-                        class="text-decoration-none font-weight-bold text-color-light custom-font-size-2"
-                        target="_blank"
-                      >
-                        <i
-                          class="fab fa-instagram text-4 position-relative top-1 me-1"
-                        ></i>
-                        INSTAGRAM
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-6 col-lg-3 px-0">
-              <div
-                class="custom-thumb-info-style-1 thumb-info thumb-info-no-borders thumb-info-lighten thumb-info-bottom-info thumb-info-bottom-info-dark thumb-info-bottom-info-show-more thumb-info-no-zoom thumb-info-hide-wrapper-bg"
-              >
-                <div
-                  class="thumb-info-wrapper overlay overlay-show overlay-op-5"
-                >
-                  <img
-                    src="img/demos/band/authors/author-2.jpg"
-                    class="img-fluid"
-                    alt=""
-                  />
-                  <div class="thumb-info-title bg-transparent">
-                    <div
-                      class="thumb-info-inner line-height-1 custom-font-size-1 custom-font-primary"
-                    >
-                      BOB SMITH DOE
-                    </div>
-                    <div
-                      class="thumb-info-type opacity-7 text-transform-none line-height-1 text-2 custom-font-primary"
-                    >
-                      Drums
-                    </div>
-                    <div class="thumb-info-show-more-content">
-                      <p class="text-1 line-height-9 my-3">
-                        Aenean elit ipsum, congue lacinia purus et, eleifend
-                        tempor lectus. Vivamus sed magna sed magna congue
-                        vehicula et ac mi. Lorem ipsum dolor sit amet.
-                      </p>
-                      <a
-                        href="https://www.instagram.com/"
-                        class="text-decoration-none font-weight-bold text-color-light custom-font-size-2"
-                        target="_blank"
-                      >
-                        <i
-                          class="fab fa-instagram text-4 position-relative top-1 me-1"
-                        ></i>
-                        INSTAGRAM
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
         <div id="news" class="container container-xl-custom py-5 my-5">
           <div class="row mb-5">
             <div class="col text-center">
@@ -809,15 +688,6 @@ Entre micro abierto y micro abierto puedes encontrarme...
 		  </div>
           </div>
           <div class="row">
-            <!-- <div class="col pt-5 text-center">
-              <a
-                href="demo-band-blog.html"
-                class="btn btn-primary btn-rounded font-weight-semibold btn-px-5 py-3 appear-animation"
-                data-appear-animation="fadeIn"
-                data-appear-animation-delay="300"
-                ><span class="position-relative top-1">VIEW MORE</span></a
-              >
-            </div> -->
           </div>
         </div>
       </div>
@@ -890,52 +760,34 @@ Entre micro abierto y micro abierto puedes encontrarme...
         <div class="footer-copyright bg-tertiary py-5">
           <div class="container-fluid py-4 px-5">
             <div class="row justify-content-between">
-              <div class="col-auto mb-4 mb-md-0">
+              <div class="col-4 mb-4 mb-md-0">
                 <a href="demo-band.html">
-                  <img
-                    src="img/demos/band/logo.png"
-                    class="img-fluid"
-                    alt=""
-                    width="112"
-                    height="30"
-                  />
+                  <img src="img/demos/band/logo.png" class="img-fluid" alt="" width="112" height="30">
                 </a>
               </div>
-              <div class="col-auto">
+              <div class="col-4" style="
+    text-align: center;
+">
                 <p class="text-color-light font-weight-light opacity-4 mb-0">
                   © Copyright 2024. All Rights Reserved.
                 </p>
               </div>
-              <div class="col-auto">
+              <div class="col-4" style="
+    text-align: right;
+">
                 <ul class="list list-inline list-unstyled mb-0">
                   <li class="list-inline-item me-0 mb-0">
-                    <a
-                      href="https://www.instagram.com/silvibrasero/"
-                      class="text-color-light font-weight-bold"
-                      target="_blank"
-                      ><i class="fab fa-instagram me-1"></i> INSTAGRAM</a
-                    >
+                    <a href="https://www.instagram.com/silvibrasero/" class="text-color-light font-weight-bold" target="_blank"><i class="fab fa-instagram me-1"></i> INSTAGRAM</a>
                   </li>
                   <li class="list-inline-item mb-0 mx-4">
-                    <a
-                      href="https://youtube.com/@silvibrasero"
-                      class="text-color-light font-weight-bold"
-                      target="_blank"
-                      ><i class="fab fa-youtube me-1"></i> YOUTUBE</a
-                    >
+                    <a href="https://youtube.com/@silvibrasero" class="text-color-light font-weight-bold" target="_blank"><i class="fab fa-youtube me-1"></i> YOUTUBE</a>
                   </li>
                   <li class="list-inline-item mb-0">
-                    <a
-                      href="https://www.facebook.com/share/u1vRjLFw6w3JAYjA/?mibextid=LQQJ4d"
-                      class="text-color-light font-weight-bold"
-                      target="_blank"
-                      ><i class="fab fa-facebook-f me-1"></i> FACEBOOK</a
-                    >
+                    <a href="https://www.facebook.com/share/u1vRjLFw6w3JAYjA/?mibextid=LQQJ4d" class="text-color-light font-weight-bold" target="_blank"><i class="fab fa-facebook-f me-1"></i> FACEBOOK</a>
                   </li>
                 </ul>
               </div>
             </div>
-          </div>
         </div>
       </footer>
     </div>
@@ -944,6 +796,34 @@ Entre micro abierto y micro abierto puedes encontrarme...
 
     <!-- Theme Base, Components and Settings -->
     <script src="js/theme.js"></script>
+
+    <!-- JavaScript para el Slideshow -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const slides = document.querySelectorAll(".background-slide");
+    let currentSlide = 0;
+    const totalSlides = slides.length;
+    const slideInterval = 5000; // 5000 milisegundos = 5 segundos
+
+    // Función para mostrar el siguiente slide
+    function showNextSlide() {
+      // Ocultar el slide actual
+      slides[currentSlide].classList.remove("active");
+
+      // Calcular el índice del siguiente slide
+      currentSlide = (currentSlide + 1) % totalSlides;
+
+      // Mostrar el siguiente slide
+      slides[currentSlide].classList.add("active");
+    }
+
+    // Iniciar el slideshow
+    slides[currentSlide].classList.add("active"); // Mostrar el primer slide
+
+    // Cambiar de slide cada 5 segundos
+    setInterval(showNextSlide, slideInterval);
+  });
+</script>
 
     <!-- Current Page Vendor and Views -->
     <script src="js/views/view.contact.js"></script>
