@@ -26,3 +26,50 @@
   .background-slide.active {
     opacity: 1;
   }
+
+html.dark section.section,
+.html.dark section.section {
+  background-color: #dddbd2;
+}
+
+html.dark section.section,
+.html.dark section.section {
+  background-color: #dddbd2;
+}
+
+html.main,
+html.main {
+  background-color: #dddbd2;
+}
+
+
+/* custom.css */
+
+/* 1. Establecer el color de fondo y eliminar la imagen de fondo */
+.custom-background-section {
+  background-color: #dddbd2 !important; /* Color de fondo deseado */
+  background-image: none !important;    /* Eliminar la imagen de fondo */
+  background-size: cover !important;    /* Asegurar que el tamaño de fondo cubra la sección */
+  background-position: center !important; /* Posición central del fondo */
+}
+
+/* 2. Actualizar el color de las letras dentro de la sección */
+.custom-background-section,
+.custom-background-section * {
+  color: #625548 !important; /* Color de texto deseado */
+}
+
+/* 3. Ajustar enlaces y otros elementos de texto si es necesario */
+.custom-background-section a {
+  color: #625548 !important; /* Color de enlaces */
+}
+
+.custom-background-section a:hover,
+.custom-background-section a:focus {
+  color: #4b433e !important; /* Color de enlaces al pasar el cursor */
+}
+
+/* 4. Ajustar otros elementos específicos dentro de la sección si es necesario */
+.custom-background-section .icon-animated {
+  filter: invert(0) !important; /* Asegurar que los íconos se muestren correctamente sobre el nuevo fondo */
+}
