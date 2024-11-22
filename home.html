@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="es">
   <head>
     <!-- Basic -->
     <meta charset="utf-8" />
@@ -10,32 +10,22 @@
     <meta name="keywords" content="WebSite Template" />
     <meta name="description" content="Sitio Oficial de Silvia Brasero" />
     <meta name="author" content="3XADesign.com" />
-
-    <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
-
-    <!-- Mobile Metas -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no"
     />
-
-    <!-- Web Fonts  -->
     <link
       id="googleFonts"
       href="https://fonts.googleapis.com/css?family=Poppins:400,600%7CJosefin+Sans:400,700%7CMontserrat:400,700&display=swap"
       rel="stylesheet"
       type="text/css"
     />
-
-    <!-- CSS del Lightbox (ejemplo con Magnific Popup) -->
     <link
       rel="stylesheet"
       href="vendor/magnific-popup/magnific-popup.min.css"
     />
-
-    <!-- Vendor CSS -->
     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css" />
     <link rel="stylesheet" href="vendor/animate/animate.compat.css" />
@@ -56,33 +46,42 @@
       href="vendor/magnific-popup/magnific-popup.min.css"
     />
 
-    <!-- Theme CSS -->
     <link rel="stylesheet" href="css/theme.css" />
     <link rel="stylesheet" href="css/theme-elements.css" />
-    <!-- Demo CSS -->
     <link rel="stylesheet" href="css/demos/demo-band.css" />
-
-    <!-- Skin CSS -->
     <link id="skinCSS" rel="stylesheet" href="css/skins/skin-band.css" />
-
-    <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="css/custom.css" />
+    <style>
+      .logo-img {
+        max-width: 350px; /* Ajusta según el tamaño deseado */
+        width: 100%;
+        height: auto;
+        margin: 20px auto; /* Centra el logo horizontalmente */
+        display: block; /* Asegura que el logo sea un elemento de bloque */
+      }
+      .bg-custom-dark {
+        background-color: #625548 !important;
+      }
+      body {
+        background-color: #DDDBD2 !important;
+      }
+    </style>
   </head>
   <body data-plugin-scroll-spy data-plugin-options="{'target': '#header'}">
     <div class="body">
-      <fadeIn
+      <header
         id="header"
         class="header-transparent header-effect-shrink header-no-border-bottom"
         data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}"
       >
-        <div class="header-body border-0 box-shadow-none bg-dark">
+        <div class="header-body border-0 box-shadow-none bg-custom-dark">
           <div class="header-container container container-xl-custom">
             <div class="header-row">
               <div class="header-column flex-row">
                 <div class="header-logo d-lg-none">
                   <a href="demo-band.html">
                     <img
-                      src="img/logos/sblogo.png"
+                      src="img/sblogo.png"
                       class="img-fluid"
                       width="112"
                       height="30"
@@ -158,17 +157,7 @@
                       INSTAGRAM
                     </a>
                   </li>
-                  <li class="list-inline-item hover-effect-2 mb-0 mx-4 px-3">
-                    <a
-                      href="https://youtube.com/@silvibrasero?si=yxbOCRlx8n7GGlDt"
-                      class="text-decoration-none font-weight-bold text-color-light text-1"
-                      target="_blank"
-                    >
-                      <i
-                        class="fab fa-youtube text-5 position-relative top-2 me-1"
-                      ></i>
-                      YOUTUBE
-                    </a>
+                  <li class="list-inline-item hover-effect-2 mb-0 mx-2 px-3">
                   </li>
                   <li class="list-inline-item hover-effect-2 mb-0">
                     <a
@@ -198,107 +187,108 @@
 
       <div role="main" class="main">
         <!-- Archivo CSS (style.css) -->
-        <style>
-          /* Clase para el logo */
-          .logo-img {
-            max-width: 350px; /* Ajusta según el tamaño deseado */
-            width: 100%;
-            height: auto;
-            margin: 20px auto; /* Centra el logo horizontalmente */
-            display: block; /* Asegura que el logo sea un elemento de bloque */
-          }
-        </style>
-<section
-id="home"
-class="section border-0 bg-dark overlay overlay-show overlay-op-8 overflow-hidden m-0"
-style="height: 100vh; position: relative;"
->
-<!-- Contenedor de Slideshow -->
-<div class="background-slideshow-wrapper">
-  <div
-    class="background-slide active"
-    style="background-image: url('img/demos/band/slides/slide-1.jpg');"
-  ></div>
-  <div
-    class="background-slide"
-    style="background-image: url('img/demos/band/slides/slide-2.jpg');"
-  ></div>
-  <div
-    class="background-slide"
-    style="background-image: url('img/demos/band/slides/slide-3.jpg');"
-  ></div>
-  <div
-    class="background-slide"
-    style="background-image: url('img/demos/band/slides/slide-4.jpg');"
-  ></div>
-</div>
+        <!-- El estilo personalizado ya se encuentra en el head -->
 
-<!-- Contenedor Principal -->
-<div class="container position-relative z-index-3 h-100">
-  <div class="row align-items-center justify-content-center h-100">
-    <div class="col-auto pt-5 mt-3">
-      <h1>
-        <span class="d-none">Silvia Brasero</span>
-      </h1>
-      <img
-        src="img/sblogo.png"
-        alt="Logo de Silvia Brasero"
-        class="logo-img appear-animation"
-        data-appear-animation="fadeInUpShorter"
-        data-appear-animation-delay="500"
-      />
-    </div>
-  </div>
-</div>
-</section>
+        <section
+          id="home"
+          class="section border-0 bg-custom-dark overlay overlay-show overlay-op-8 overflow-hidden m-0"
+          style="height: 100vh; position: relative;"
+        >
+          <!-- Contenedor de Slideshow -->
+          <div class="background-slideshow-wrapper">
+            <div
+              class="background-slide active"
+              style="background-image: url('img/demos/band/slides/slide-1.jpg');"
+            ></div>
+            <div
+              class="background-slide"
+              style="background-image: url('img/demos/band/slides/slide-2.jpg');"
+            ></div>
+            <div
+              class="background-slide"
+              style="background-image: url('img/demos/band/slides/slide-3.jpg');"
+            ></div>
+            <div
+              class="background-slide"
+              style="background-image: url('img/demos/band/slides/slide-4.jpg');"
+            ></div>
+          </div>
 
-        <section class="section bg-secondary border-0 py-0 m-0">
+          <!-- Contenedor Principal -->
+          <div class="container position-relative z-index-3 h-100">
+            <div class="row align-items-center justify-content-center h-100">
+              <div class="col-auto pt-5 mt-3">
+                <h1>
+                  <span class="d-none">Silvia Brasero</span>
+                </h1>
+                <img
+                  src="img/sblogo.png"
+                  alt="Logo de Silvia Brasero"
+                  class="logo-img appear-animation"
+                  data-appear-animation="fadeInUpShorter"
+                  data-appear-animation-delay="500"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section border-0 py-0 m-0" style="background-color: #625548;">
           <div class="container container-xl-custom">
-            <div class="row custom-borders-divider-style-1">
+            <div class="row">
+              <!-- Eliminé la clase custom-borders-divider-style-1 del div row -->
               <div class="col-sm-6 col-lg-3 text-center px-0">
                 <a
                   href="https://open.spotify.com/intl-es/artist/1m6QMldcKREugFdGmv0PrW"
-                  class="custom-spotify-hover-effect text-decoration-none text-color-light text-4 d-block py-5 appear-animation"
+                  class="custom-spotify-hover-effect text-decoration-none text-4 d-block py-5 appear-animation"
                   target="_blank"
                   data-appear-animation="fadeInRightShorter"
-                  ><i class="fab fa-spotify me-1"></i> SPOTIFY</a
+                  style="color: #DDDBD2;"
                 >
+                  <i class="fab fa-spotify me-1" style="color: #DDDBD2;"></i> SPOTIFY
+                </a>
               </div>
               <div class="col-sm-6 col-lg-3 text-center px-0">
                 <a
                   href="#"
-                  class="custom-itunes-hover-effect text-decoration-none text-color-light text-4 d-block py-5 appear-animation"
+                  class="custom-itunes-hover-effect text-decoration-none text-4 d-block py-5 appear-animation"
                   target="_blank"
                   data-appear-animation="fadeInRightShorter"
                   data-appear-animation-delay="200"
-                  ><i class="fab fa-apple me-1"></i> MUSIC</a
+                  style="color: #DDDBD2;"
                 >
+                  <i class="fab fa-apple me-1" style="color: #DDDBD2;"></i> MUSIC
+                </a>
               </div>
               <div class="col-sm-6 col-lg-3 text-center px-0">
                 <a
                   href="https://youtube.com/@silvibrasero?si=yxbOCRlx8n7GGlDt"
-                  class="custom-googlemusic-hover-effect text-decoration-none text-color-light text-4 d-block py-5 appear-animation"
+                  class="custom-googlemusic-hover-effect text-decoration-none text-4 d-block py-5 appear-animation"
                   target="_blank"
                   data-appear-animation="fadeInRightShorter"
                   data-appear-animation-delay="400"
-                  ><i class="fab fa-youtube me-1"></i> YOUTUBE</a
+                  style="color: #DDDBD2;"
                 >
+                  <i class="fab fa-youtube me-1" style="color: #DDDBD2;"></i> YOUTUBE
+                </a>
               </div>
               <div class="col-sm-6 col-lg-3 text-center px-0">
                 <a
                   href="#"
-                  class="custom-amazon-hover-effect text-decoration-none text-color-light text-4 d-block py-5 appear-animation"
+                  class="custom-amazon-hover-effect text-decoration-none text-4 d-block py-5 appear-animation"
                   target="_blank"
                   data-appear-animation="fadeInRightShorter"
                   data-appear-animation-delay="600"
-                  ><i class="fab fa-amazon me-1"></i> AMAZON MUSIC</a
+                  style="color: #DDDBD2;"
                 >
+                  <i class="fab fa-amazon me-1" style="color: #DDDBD2;"></i> AMAZON MUSIC
+                </a>
               </div>
             </div>
           </div>
         </section>
         <section id="about" class="section section-height-4 border-0 m-0">
-          <div class="container container-xl-custom">
+          <div class="container">
             <div class="row">
               <div class="col text-center">
                 <svg
@@ -321,32 +311,33 @@ style="height: 100vh; position: relative;"
                 </svg>
                 <div class="overflow-hidden">
                   <span
-                    class="d-block text-color-light font-weight-bold d-block appear-animation"
+                    class="d-block text-color-light font-weight-bold appear-animation"
+                    style="color: #625548 !important;"
                     data-appear-animation="maskUp"
                     data-appear-animation-delay="300"
-                    style="color: #625548 !important;"
-                    >SOBRE MÍ</span
+                    >BIOGRAFÍA</span
                   >
                 </div>
                 <div class="overflow-hidden mb-3">
                   <h2
-                  class="font-weight-bold text-9 pb-1 mb-0 appear-animation"
-                  data-appear-animation="maskUp"
-                  data-appear-animation-delay="500"
-                  style="color: #625548 !important;"
-                >
-                  Biografía de Silvia Brasero
-                </h2>
+                    class="font-weight-bold text-9 pb-1 mb-0 appear-animation"
+                    data-appear-animation="maskUp"
+                    data-appear-animation-delay="500"
+                    style="color: #625548 !important;"
+                  >
+Sobre mí                   </h2>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="col">
+
+            <!-- Inicio de la sección fusionada -->
+            <div class="row align-items-center mb-5">
+              <div class="col-md-6 px-md-5">
                 <p
-                  class="line-height-9 mb-4 pb-2 appear-animation text-white-large"
+                  class="line-height-9 mb-4 appear-animation"
                   data-appear-animation="fadeInUpShorter"
                   data-appear-animation-delay="700"
-                  style="text-align: justify"
+                  style="text-align: justify; font-size: 20px; font-family: 'Times New Roman', Times, serif; font-weight: bold;"
                 >
                   Silvia Brasero, nacida en 2003 en Valencia, ha dedicado gran
                   parte de su vida a diversos proyectos musicales que han
@@ -357,11 +348,19 @@ style="height: 100vh; position: relative;"
                   en múltiples eventos de micrófono abierto y ofreciendo
                   conciertos de su música original en la Comunidad Valenciana.
                 </p>
+              </div>
+              <div class="col-md-6 px-md-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="700">
+                <img src="img/imagen1.jpg" alt="Silvia Brasero" class="img-fluid rounded">
+              </div>
+            </div>
+
+            <div class="row align-items-center mb-5">
+              <div class="col-md-6 order-md-2 px-md-5">
                 <p
-                  class="line-height-9 mb-4 pb-2 appear-animation text-white-large"
+                  class="line-height-9 mb-4 appear-animation"
                   data-appear-animation="fadeInUpShorter"
                   data-appear-animation-delay="850"
-                  style="text-align: justify"
+                  style="text-align: justify; font-size: 20px; font-family: 'Times New Roman', Times, serif; font-weight: bold;"
                 >
                   Como artista local, Silvia se distingue por su voz íntima y
                   sus letras introspectivas, combinadas con una fusión
@@ -372,11 +371,19 @@ style="height: 100vh; position: relative;"
                   grabación de su tan esperado primer EP, trabajando junto a
                   Alex Hankins en Hankins Studio, ubicado en Valencia.
                 </p>
+              </div>
+              <div class="col-md-6 order-md-1 px-md-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="850">
+                <img src="img/imagen2.jpg" alt="Silvia en el estudio" class="img-fluid rounded">
+              </div>
+            </div>
+
+            <div class="row align-items-center mb-5">
+              <div class="col-md-6 px-md-5">
                 <p
-                  class="line-height-9 mb-4 pb-2 appear-animation text-white-large"
+                  class="line-height-9 mb-4 appear-animation"
                   data-appear-animation="fadeInUpShorter"
                   data-appear-animation-delay="1000"
-                  style="text-align: justify"
+                  style="text-align: justify; font-size: 20px; font-family: 'Times New Roman', Times, serif; font-weight: bold;"
                 >
                   Silvia también ha colaborado con reconocidos artistas como Rei
                   Ortolá en la canción "Voces de Valencia", una pieza que
@@ -386,426 +393,396 @@ style="height: 100vh; position: relative;"
                   sus vivencias y emociones a través de sus composiciones.
                 </p>
               </div>
-            </div>
-            
-            <!-- Galería de Imágenes -->
-            <div class="row">
-              <div class="col-12 text-center mb-5">
-                <h3 class="font-weight-bold text-7 text-color-light appear-animation"
-                    data-appear-animation="fadeInUpShorter"
-                    data-appear-animation-delay="1150"
-                    style="color: #625548 !important;"
-                    >
-                  Galería de Imágenes
-                </h3>
-              </div>
-              <!-- Imagen 1 -->
-              <div class="col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
-                <div class="gallery-item">
-                  <img src="img/imagen1.jpg" alt="Descripción de la imagen 1" class="img-fluid rounded">
-                </div>
-              </div>
-              <!-- Imagen 2 -->
-              <div class="col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
-                <div class="gallery-item">
-                  <img src="img/imagen2.jpg" alt="Descripción de la imagen 2" class="img-fluid rounded">
-                </div>
-              </div>
-              <!-- Imagen 3 -->
-              <div class="col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
-                <div class="gallery-item">
-                  <img src="img/imagen3.jpg" alt="Descripción de la imagen 3" class="img-fluid rounded">
-                </div>
-              </div>
-              <!-- Imagen 4 -->
-              <div class="col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
-                <div class="gallery-item">
-                  <img src="img/imagen4.jpg" alt="Descripción de la imagen 4" class="img-fluid rounded">
-                </div>
-              </div>
-              <!-- Imagen 5 -->
-              <div class="col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
-                <div class="gallery-item">
-                  <img src="img/imagen5.jpg" alt="Descripción de la imagen 5" class="img-fluid rounded">
-                </div>
-              </div>
-              <!-- Imagen 6 -->
-              <div class="col-sm-6 col-md-4 mb-4 d-flex justify-content-center">
-                <div class="gallery-item">
-                  <img src="img/imagen6.jpg" alt="Descripción de la imagen 6" class="img-fluid rounded">
-                </div>
+              <div class="col-md-6 px-md-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
+                <img src="img/imagen3.jpg" alt="Silvia en concierto" class="img-fluid rounded">
               </div>
             </div>
-            <!-- Fin de la Galería -->
-            
+            <!-- Fin de la sección fusionada -->
           </div>
         </section>
-        <section
-        class="section border-0 m-0 overlay overlay-show overlay-op-9 appear-animation"
-        data-appear-animation="fadeIn"
-        style="
-          background: url(img/background-1.jpg);
-          background-size: cover;
-          background-position: center;
-        "
-      >
-        <div class="container container-xl-custom">
-          <div class="row align-items-center my-5 py-5">
-            <div class="col text-center py-5 my-5">
-              <!-- Lightbox Trigger -->
-              <a
-                class="text-decoration-none lightbox"
-                href="https://www.youtube.com/watch?v=L2a1LqweXpc"
-                data-plugin-options="{'type':'iframe'}"
-              >
-                <!-- Botón de Play Animado -->
-                <img
-                  class="icon-animated"
-                  width="80"
-                  src="vendor/linea-icons/linea-music/icons/play-button.svg"
-                  alt="Reproducir Video"
-                  data-icon
-                  data-plugin-options="{'color': '#FFF', 'animated': true, 'delay': 600, 'strokeBased': true}"
-                />
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-  <section style="background-color: #dddbd2 !important"; >
-        <div id="tour" class="container container-xl-custom py-5 my-5"
-        >
-          <div class="row mb-4 pb-2">
-            <div class="col text-center">
-              <svg
-                class="mb-4"
-                width="20"
-                height="72"
-                viewBox="0 0 10 40"
-                data-appear-animation-svg="true"
-              >
-                <line
-                  x1="5"
-                  x2="5"
-                  y1="0"
-                  y2="40"
-                  stroke="#909294"
-                  stroke-width="1"
-                  class="appear-animation"
-                  data-appear-animation="customSVGLineAnim"
-                ></line>
-              </svg>
-              <div class="overflow-hidden">
-                <span
-                  class="d-block text-color-light font-weight-bold d-block appear-animation"
-                  style="color: #625548 !important";
-                  data-appear-animation="maskUp"
-                  data-appear-animation-delay="300"
-                  >CONCIERTOS 2024</span
-                >
-              </div>
-              <div class="overflow-hidden mb-3">
-                <h2
-                  class="font-weight-bold text-9 pb-1 mb-0 appear-animation"
-                  data-appear-animation="maskUp"
-                  style="color: #625548 !important";
-                  data-appear-animation-delay="500"
-                >
-                  Próximos Eventos
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div
-            class="appear-animation"
-            data-appear-animation="fadeInUpShorter"
-            data-appear-animation-delay="900"
-          >
-            <div
-              class="custom-tour-wrapper border custom-border-color-1 border-start-0 border-end-0"
-            >
-              <div class="custom-tour-stage">
-                <div class="custom-tour-item row align-items-center py-4 mx-0">
-                  <div class="col-lg-3">
-                    <h3 class="font-weight-bold mb-0">NOV, SAB 30 - 2024</h3>
-                    <span
-                      class="d-block text-color-light line-height-4 opacity-7"
-                      >20:00 pm</span
-                    >
-                  </div>
-                  <div class="col-lg-2">
-                    <span class="text-color-light opacity-7">Sala Matisse</span>
-                  </div>
-                  <div class="col-lg-4 mb-4 mb-lg-0">
-                    <span class="text-color-light opacity-7"
-                      >Valencia, España</span
-                    >
-                  </div>
-                  <!-- <div class="col-lg-3 text-lg-end">
-                    <a
-                      href="demo-band-ticket-detail.html"
-                      class="btn btn-light btn-outline btn-rounded font-weight-semibold text-color-light btn-px-5 py-3"
-                      ><span class="position-relative top-1"
-                        >VER TICKETS</span
-                      ></a
-                    >
-                  </div> -->
-                </div>
-                <div
-                  class="custom-tour-item row align-items-center bg-light py-4 mx-0"
-                >
-                  <div class="col-lg-3">
-                    <h3 class="font-weight-bold text-color-dark mb-0">
-                      NOV, SAB 30 - 2024
-                    </h3>
-                    <span class="d-block text-color-dark line-height-4"
-                      >11:00 pm</span
-                    >
-                  </div>
-                  <div class="col-lg-2">
-                    <span class="text-color-dark">Sala Matisse</span>
-                  </div>
-                  <div class="col-lg-4 mb-4 mb-lg-0">
-                    <span class="text-color-dark">Valencia, España</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section style="background-color: #dddbd2 !important"; >
-        <div id="news" class="container container-xl-custom py-5 my-5">
-          <div class="row mb-5">
-            <div class="col text-center">
-              <svg
-                class="mb-4"
-                width="20"
-                height="72"
-                viewBox="0 0 10 40"
-                data-appear-animation-svg="true"
-              >
-                <line
-                  x1="5"
-                  x2="5"
-                  y1="0"
-                  y2="40"
-                  stroke="#909294"
-                  stroke-width="1"
-                  class="appear-animation"
-                  data-appear-animation="customSVGLineAnim"
-                ></line>
-              </svg>
-              <div class="overflow-hidden">
-                <span
-                  class="d-block text-color-light font-weight-bold d-block appear-animation"
-                  data-appear-animation="maskUp"
-                  data-appear-animation-delay="300"
-                  >¿ESTÁS CONECTADO?</span
-                >
-              </div>
-              <div class="overflow-hidden mb-3">
-                <h2
-                  class="font-weight-bold text-9 pb-1 mb-0 appear-animation"
-                  data-appear-animation="maskUp"
-                  data-appear-animation-delay="500"
-                >
-                  Últimas noticias sobre Silvia
-                </h2>
-              </div>
-              <div class="overflow-hidden mb-3">
-              </div>
-            </div>
-          </div>
-          <div
-            class="row appear-animation"
-            data-appear-animation="fadeInUpShorter"
-            data-appear-animation-delay="350"
-          >          
-		  <div class="col-lg-4">
-			<div class="custom-card-style-1 card rounded-0 hover-effect-1">
-			  <div class="custom-card-img-top-wrapper">
-				<div class="post-date">
-				  <span
-					class="day text-color-light font-weight-extra-bold bg-primary"
-					>7</span
-				  >
-				  <span class="month text-color-dark bg-light">NOV</span>
-				</div>
-				<a href="https://www.instagram.com/p/DCFRb_stGgI/">
-				  <img
-					class="card-img-top"
-					src="img/silvia-rei-collaboration.jpeg"
-					alt="Silvia Brasero colabora con Rei Ortolá en 'Voces de Valencia'"
-				  />
-				</a>
-			  </div>
-			  <div class="card-body p-5">
-				<h4 class="card-title font-weight-bold text-5 mb-3">
-				  <a
-					href="https://www.instagram.com/p/DCFRb_stGgI/"
-					class="text-decoration-none text-color-light"
-					>Silvia Brasero colabora en "Voces de Valencia" con Rei Ortolá</a
-				  >
-				</h4>
-				<p class="card-text">
-				  Silvia Brasero une fuerzas con el reconocido artista Rei Ortolá para lanzar su primer sencillo, "Voces de Valencia". Esta colaboración marca un hito importante en la carrera de Silvia, combinando sus estilos únicos para crear una pieza musical innovadora que promete resonar en la escena musical española.
-				</p>
-			  </div>
-			</div>
-		  </div>
-          </div>
-          <div class="row">
-          </div>
-        </div>
-      </div>
-    </section>
 
-      <footer id="footer" class="bg-secondary border-0 mt-0">
-        <div id="contact" class="footer-contact-form">
-			<div class="container container-xl-custom">
-			  <div class="row my-5">
-				<div class="col text-center">
-				  <!-- SVG Decorativo -->
-				  <svg
-					class="mb-4"
-					width="20"
-					height="72"
-					viewBox="0 0 10 40"
-					data-appear-animation-svg="true"
-				  >
-					<line
-					  x1="5"
-					  x2="5"
-					  y1="0"
-					  y2="40"
-					  stroke="#909294"
-					  stroke-width="1"
-					  class="appear-animation"
-					  data-appear-animation="customSVGLineAnim"
-					></line>
-				  </svg>
-				  <!-- Título Principal -->
-				  <div class="overflow-hidden">
-					<span
-					  class="d-block text-color-light font-weight-bold appear-animation"
-					  data-appear-animation="maskUp"
-					  data-appear-animation-delay="300"
-					>PONTE EN CONTACTO</span>
-				  </div>
-				  <!-- Subtítulo -->
-				  <div class="overflow-hidden mb-3">
-					<h2
-					  class="font-weight-bold text-9 pb-1 mb-0 appear-animation"
-					  data-appear-animation="maskUp"
-					  data-appear-animation-delay="500"
-					>
-					  ¡Contáctame!
-					</h2>
-				  </div>
-				  <!-- Mensaje de Contacto -->
-          <div class="overflow-hidden mb-3">
-            <p
-              class="font-weight-bold text-4 mb-0 appear-animation"
-              data-appear-animation="maskUp"
-              data-appear-animation-delay="700"
-            >
-              Puedes escribirme al siguiente correo electrónico:
-            </p>
-            <!-- Botón de Contacto -->
-            <p
-              class="font-weight-bold text-4 mb-0 appear-animation"
-              data-appear-animation="maskUp"
-              data-appear-animation-delay="800"
-            >
-              <a href="mailto:silviagestionmusical@gmail.com" class="btn btn-primary btn-lg mt-3">
-                Contáctame
-              </a>
-            </p>
-          </div>
-				  </div>
-				</div>
-			  </div>
-			</div>
-		  </div>
-        <div class="footer-copyright bg-tertiary py-5">
-          <div class="container-fluid py-4 px-5">
-            <div class="row justify-content-between">
-              <div class="col-4 mb-4 mb-md-0">
-                <a href="demo-band.html">
-                  <img src="img/demos/band/logo.png" class="img-fluid" alt="" width="112" height="30">
+        <section
+          class="section border-0 m-0 overlay overlay-show overlay-op-9 appear-animation"
+          data-appear-animation="fadeIn"
+          style="
+            background: url(img/background-1.jpg);
+            background-size: cover;
+            background-position: center;
+          "
+        >
+          <div class="container container-xl-custom">
+            <div class="row align-items-center my-5 py-5">
+              <div class="col text-center py-5 my-5">
+                <a
+                  class="text-decoration-none lightbox"
+                  href="https://www.youtube.com/watch?v=L2a1LqweXpc"
+                  data-plugin-options="{'type':'iframe'}"
+                >
+                  <img
+                    class="icon-animated"
+                    width="80"
+                    src="vendor/linea-icons/linea-music/icons/play-button.svg"
+                    alt="Reproducir Video"
+                    data-icon
+                    data-plugin-options="{'color': '#FFF', 'animated': true, 'delay': 600, 'strokeBased': true}"
+                  />
                 </a>
               </div>
-              <div class="col-4" style="
-    text-align: center;
-">
-                <p class="text-color-light font-weight-light opacity-4 mb-0">
-                  © Copyright 2024. All Rights Reserved.
-                </p>
-              </div>
-              <div class="col-4" style="
-    text-align: right;
-">
-                <ul class="list list-inline list-unstyled mb-0">
-                  <li class="list-inline-item me-0 mb-0">
-                    <a href="https://www.instagram.com/silvibrasero/" class="text-color-light font-weight-bold" target="_blank"><i class="fab fa-instagram me-1"></i> INSTAGRAM</a>
-                  </li>
-                  <li class="list-inline-item mb-0 mx-4">
-                    <a href="https://youtube.com/@silvibrasero" class="text-color-light font-weight-bold" target="_blank"><i class="fab fa-youtube me-1"></i> YOUTUBE</a>
-                  </li>
-                  <li class="list-inline-item mb-0">
-                    <a href="https://www.facebook.com/share/u1vRjLFw6w3JAYjA/?mibextid=LQQJ4d" class="text-color-light font-weight-bold" target="_blank"><i class="fab fa-facebook-f me-1"></i> FACEBOOK</a>
-                  </li>
-                </ul>
+            </div>
+          </div>
+        </section>
+        <section style="background-color: #dddbd2 !important;">
+          <div id="tour" class="container container-xl-custom py-5 my-5">
+            <div class="row mb-4 pb-2">
+              <div class="col text-center">
+                <svg
+                  class="mb-4"
+                  width="20"
+                  height="72"
+                  viewBox="0 0 10 40"
+                  data-appear-animation-svg="true"
+                >
+                  <line
+                    x1="5"
+                    x2="5"
+                    y1="0"
+                    y2="40"
+                    stroke="#909294"
+                    stroke-width="1"
+                    class="appear-animation"
+                    data-appear-animation="customSVGLineAnim"
+                  ></line>
+                </svg>
+                <div class="overflow-hidden">
+                  <span
+                    class="d-block text-color-light font-weight-bold appear-animation"
+                    style="color: #625548 !important;"
+                    data-appear-animation="maskUp"
+                    data-appear-animation-delay="300"
+                    >CONCIERTOS 2024</span
+                  >
+                </div>
+                <div class="overflow-hidden mb-3">
+                  <h2
+                    class="font-weight-bold text-9 pb-1 mb-0 appear-animation"
+                    data-appear-animation="maskUp"
+                    style="color: #625548 !important;"
+                    data-appear-animation-delay="500"
+                  >
+                    Próximos Eventos
+                  </h2>
+                </div>
               </div>
             </div>
-        </div>
-      </footer>
+            <div
+              class="appear-animation"
+              data-appear-animation="fadeInUpShorter"
+              data-appear-animation-delay="900"
+            >
+              <div
+                class="custom-tour-wrapper border custom-border-color-1 border-start-0 border-end-0"
+              >
+                <div class="custom-tour-stage">
+                  <div class="custom-tour-item row align-items-center py-4 mx-0">
+                    <div class="col-lg-3">
+                      <h3 class="font-weight-bold mb-0">NOV, SAB 30 - 2024</h3>
+                      <span
+                        class="d-block text-color-light line-height-4 opacity-7"
+                        >20:00 pm</span
+                      >
+                    </div>
+                    <div class="col-lg-2">
+                      <span class="text-color-light opacity-7">Sala Matisse</span>
+                    </div>
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                      <span class="text-color-light opacity-7"
+                        >Valencia, España</span
+                      >
+                    </div>
+                  </div>
+                  <div
+                    class="custom-tour-item row align-items-center bg-light py-4 mx-0"
+                  >
+                    <div class="col-lg-3">
+                      <h3 class="font-weight-bold text-color-dark mb-0">
+                        NOV, SAB 30 - 2024
+                      </h3>
+                      <span class="d-block text-color-dark line-height-4"
+                        >11:00 pm</span
+                      >
+                    </div>
+                    <div class="col-lg-2">
+                      <span class="text-color-dark">Sala Matisse</span>
+                    </div>
+                    <div class="col-lg-4 mb-4 mb-lg-0">
+                      <span class="text-color-dark">Valencia, España</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section style="background-color: #dddbd2 !important;">
+          <div id="news" class="container container-xl-custom py-5 my-5">
+            <div class="row mb-5">
+              <div class="col text-center">
+                <svg
+                  class="mb-4"
+                  width="20"
+                  height="72"
+                  viewBox="0 0 10 40"
+                  data-appear-animation-svg="true"
+                >
+                  <line
+                    x1="5"
+                    x2="5"
+                    y1="0"
+                    y2="40"
+                    stroke="#909294"
+                    stroke-width="1"
+                    class="appear-animation"
+                    data-appear-animation="customSVGLineAnim"
+                  ></line>
+                </svg>
+                <div class="overflow-hidden">
+                  <span
+                    class="d-block text-color-light font-weight-bold appear-animation"
+                    data-appear-animation="maskUp"
+                    data-appear-animation-delay="300"
+                    >¿ESTÁS CONECTADO?</span
+                  >
+                </div>
+                <div class="overflow-hidden mb-3">
+                  <h2
+                    class="font-weight-bold text-9 pb-1 mb-0 appear-animation"
+                    data-appear-animation="maskUp"
+                    data-appear-animation-delay="500"
+                  >
+                    Últimas noticias sobre Silvia
+                  </h2>
+                </div>
+                <div class="overflow-hidden mb-3"></div>
+              </div>
+            </div>
+            <div
+              class="row appear-animation"
+              data-appear-animation="fadeInUpShorter"
+              data-appear-animation-delay="350"
+            >
+              <div class="col-lg-4">
+                <div class="custom-card-style-1 card rounded-0 hover-effect-1">
+                  <div class="custom-card-img-top-wrapper">
+                    <div class="post-date">
+                      <span
+                        class="day text-color-light font-weight-extra-bold bg-primary"
+                        >7</span
+                      >
+                      <span class="month text-color-dark bg-light">NOV</span>
+                    </div>
+                    <a href="https://www.instagram.com/p/DCFRb_stGgI/">
+                      <img
+                        class="card-img-top"
+                        src="img/silvia-rei-collaboration.jpeg"
+                        alt="Silvia Brasero colabora con Rei Ortolá en 'Voces de Valencia'"
+                      />
+                    </a>
+                  </div>
+                  <div class="card-body p-5" style="background-color: #625548;">
+                    <h4 class="card-title font-weight-bold text-5 mb-3" style="color: #DDDBD2;">
+                      <a
+                        href="https://www.instagram.com/p/DCFRb_stGgI/"
+                        class="text-decoration-none"
+                        style="color: #DDDBD2;"
+                      >
+                        Silvia Brasero colabora en "Voces de Valencia" con Rei Ortolá
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row"></div>
+          </div>
+        </section>
+
+        <footer id="footer" class="bg-secondary border-0 mt-0">
+          <div id="contact" class="footer-contact-form">
+            <div class="container container-xl-custom">
+              <div class="row my-5">
+                <div class="col text-center">
+                  <!-- SVG Decorativo -->
+                  <svg
+                    class="mb-4"
+                    width="20"
+                    height="72"
+                    viewBox="0 0 10 40"
+                    data-appear-animation-svg="true"
+                  >
+                    <line
+                      x1="5"
+                      x2="5"
+                      y1="0"
+                      y2="40"
+                      stroke="#909294"
+                      stroke-width="1"
+                      class="appear-animation"
+                      data-appear-animation="customSVGLineAnim"
+                    ></line>
+                  </svg>
+                  <!-- Título Principal -->
+                  <div class="overflow-hidden">
+                    <span
+                      class="d-block text-color-light font-weight-bold appear-animation"
+                      data-appear-animation="maskUp"
+                      data-appear-animation-delay="300"
+                      >PONTE EN CONTACTO</span
+                    >
+                  </div>
+                  <!-- Subtítulo -->
+                  <div class="overflow-hidden mb-3">
+                    <h2
+                      class="font-weight-bold text-9 pb-1 mb-0 appear-animation"
+                      data-appear-animation="maskUp"
+                      data-appear-animation-delay="500"
+                    >
+                      ¡Contáctame!
+                    </h2>
+                  </div>
+                  <!-- Mensaje de Contacto -->
+                  <div class="overflow-hidden mb-3">
+                    <p
+                      class="font-weight-bold text-4 mb-0 appear-animation"
+                      data-appear-animation="maskUp"
+                      data-appear-animation-delay="700"
+                    >
+                      Puedes escribirme al siguiente correo electrónico:
+                    </p>
+                    <!-- Botón de Contacto -->
+                    <p
+                      class="font-weight-bold text-4 mb-0 appear-animation"
+                      data-appear-animation="maskUp"
+                      data-appear-animation-delay="800"
+                    >
+                      <a
+                        href="mailto:silviagestionmusical@gmail.com"
+                        class="btn btn-primary btn-lg mt-3"
+                      >
+                        Contáctame
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright bg-tertiary py-5">
+            <div class="container-fluid py-4 px-5">
+              <div class="row justify-content-between">
+                <div class="col-4 mb-4 mb-md-0">
+                  <a href="demo-band.html">
+                    <img
+                      src="img/demos/band/logo.png"
+                      class="img-fluid"
+                      alt=""
+                      width="112"
+                      height="30"
+                    />
+                  </a>
+                </div>
+                <div
+                  class="col-4"
+                  style="
+                    text-align: center;
+                  "
+                >
+                  <p class="text-color-light font-weight-light opacity-4 mb-0">
+                    © Copyright 2024. All Rights Reserved.
+                  </p>
+                </div>
+                <div
+                  class="col-4"
+                  style="
+                    text-align: right;
+                  "
+                >
+                  <ul class="list list-inline list-unstyled mb-0">
+                    <li class="list-inline-item me-0 mb-0">
+                      <a
+                        href="https://www.instagram.com/silvibrasero/"
+                        class="text-color-light font-weight-bold"
+                        target="_blank"
+                        ><i class="fab fa-instagram me-1"></i> INSTAGRAM</a
+                      >
+                    </li>
+                    <li class="list-inline-item mb-0 mx-4">
+                      <a
+                        href="https://youtube.com/@silvibrasero"
+                        class="text-color-light font-weight-bold"
+                        target="_blank"
+                        ><i class="fab fa-youtube me-1"></i> YOUTUBE</a
+                      >
+                    </li>
+                    <li class="list-inline-item mb-0">
+                      <a
+                        href="https://www.facebook.com/share/u1vRjLFw6w3JAYjA/?mibextid=LQQJ4d"
+                        class="text-color-light font-weight-bold"
+                        target="_blank"
+                        ><i class="fab fa-facebook-f me-1"></i> FACEBOOK</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <!-- Vendor -->
+      <script src="vendor/plugins/js/plugins.min.js"></script>
+
+      <!-- Theme Base, Components and Settings -->
+      <script src="js/theme.js"></script>
+
+      <!-- JavaScript para el Slideshow -->
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          const slides = document.querySelectorAll(".background-slide");
+          let currentSlide = 0;
+          const totalSlides = slides.length;
+          const slideInterval = 5000; // 5000 milisegundos = 5 segundos
+
+          // Función para mostrar el siguiente slide
+          function showNextSlide() {
+            // Ocultar el slide actual
+            slides[currentSlide].classList.remove("active");
+
+            // Calcular el índice del siguiente slide
+            currentSlide = (currentSlide + 1) % totalSlides;
+
+            // Mostrar el siguiente slide
+            slides[currentSlide].classList.add("active");
+          }
+
+          // Iniciar el slideshow
+          slides[currentSlide].classList.add("active"); // Mostrar el primer slide
+
+          // Cambiar de slide cada 5 segundos
+          setInterval(showNextSlide, slideInterval);
+        });
+      </script>
+
+      <!-- Current Page Vendor and Views -->
+      <script src="js/views/view.contact.js"></script>
+
+      <!-- Demo -->
+      <script src="js/demos/demo-band.js"></script>
+
+      <!-- Theme Custom -->
+      <script src="js/custom.js"></script>
+
+      <!-- Theme Initialization Files -->
+      <script src="js/theme.init.js"></script>
     </div>
-    <!-- Vendor -->
-    <script src="vendor/plugins/js/plugins.min.js"></script>
-
-    <!-- Theme Base, Components and Settings -->
-    <script src="js/theme.js"></script>
-
-    <!-- JavaScript para el Slideshow -->
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    const slides = document.querySelectorAll(".background-slide");
-    let currentSlide = 0;
-    const totalSlides = slides.length;
-    const slideInterval = 5000; // 5000 milisegundos = 5 segundos
-
-    // Función para mostrar el siguiente slide
-    function showNextSlide() {
-      // Ocultar el slide actual
-      slides[currentSlide].classList.remove("active");
-
-      // Calcular el índice del siguiente slide
-      currentSlide = (currentSlide + 1) % totalSlides;
-
-      // Mostrar el siguiente slide
-      slides[currentSlide].classList.add("active");
-    }
-
-    // Iniciar el slideshow
-    slides[currentSlide].classList.add("active"); // Mostrar el primer slide
-
-    // Cambiar de slide cada 5 segundos
-    setInterval(showNextSlide, slideInterval);
-  });
-</script>
-
-    <!-- Current Page Vendor and Views -->
-    <script src="js/views/view.contact.js"></script>
-
-    <!-- Demo -->
-    <script src="js/demos/demo-band.js"></script>
-
-    <!-- Theme Custom -->
-    <script src="js/custom.js"></script>
-
-    <!-- Theme Initialization Files -->
-    <script src="js/theme.init.js"></script>
   </body>
 </html>
