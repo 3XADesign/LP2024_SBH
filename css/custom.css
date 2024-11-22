@@ -29,17 +29,17 @@
 
 html.dark section.section,
 .html.dark section.section {
-  background-color: #dddbd2;
+  background-color: #F4F4F4;
 }
 
 html.dark section.section,
 .html.dark section.section {
-  background-color: #dddbd2;
+  background-color: #F4F4F4;
 }
 
 html.main,
 html.main {
-  background-color: #dddbd2;
+  background-color: #F4F4F4;
 }
 
 
@@ -47,7 +47,7 @@ html.main {
 
 /* 1. Establecer el color de fondo y eliminar la imagen de fondo */
 .custom-background-section {
-  background-color: #dddbd2 !important; /* Color de fondo deseado */
+  background-color: #F4F4F4 !important; /* Color de fondo deseado */
   background-image: none !important;    /* Eliminar la imagen de fondo */
   background-size: cover !important;    /* Asegurar que el tamaño de fondo cubra la sección */
   background-position: center !important; /* Posición central del fondo */

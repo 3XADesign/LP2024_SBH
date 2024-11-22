@@ -218,7 +218,7 @@ Theme Version:	12.0.0
 	text-align: center;
 	height: 30px;
 	line-height: 30px;
-	color: #FFF;
+	color: #F4F4F4;
 }
 
 .accordion.accordion-modern-grey-scale-1 .card:first-of-type, .accordion.accordion-modern-grey-scale-1 .card:not(:first-of-type):not(:last-of-type), .accordion.accordion-modern-grey-scale-1 .card:last-of-type {
@@ -4049,7 +4049,7 @@ body.dark .pagination > .active > a {
 	position: absolute;
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-top: 20px solid #FFF;
+	border-top: 20px solid #F4F4F4;
 	height: 20px;
 	width: 20px;
 	top: -5px;
@@ -4941,8 +4941,8 @@ body.dark .pagination > .active > a {
 }
 
 .owl-carousel.nav-svg-arrows-1 .owl-nav .owl-prev svg polygon, .owl-carousel.nav-svg-arrows-1 .owl-nav .owl-next svg polygon {
-	fill: #FFF;
-	stroke: #FFF;
+	fill: #F4F4F4;
+	stroke: #F4F4F4;
 }
 
 .owl-carousel.nav-svg-arrows-1 .owl-nav .owl-prev svg {
@@ -5210,8 +5210,8 @@ body.dark .pagination > .active > a {
 
 .owl-carousel.nav-light.nav-svg-arrows-1 .owl-nav .owl-next svg polygon,
 .owl-carousel.nav-light.nav-svg-arrows-1 .owl-nav .owl-prev svg polygon {
-	fill: #FFF !important;
-	stroke: #FFF !important;
+	fill: #F4F4F4 !important;
+	stroke: #F4F4F4 !important;
 }
 
 .owl-carousel.nav-light.nav-arrows-1 .owl-nav .owl-next,
@@ -5252,8 +5252,8 @@ body.dark .pagination > .active > a {
 }
 
 .owl-carousel.nav-dark:not(.nav-style-1):not(.nav-style-2):not(.nav-style-3):not(.show-nav-title):not(.nav-arrows-1).nav-svg-arrows-1 .owl-nav .owl-next svg polygon, .owl-carousel.nav-dark:not(.nav-style-1):not(.nav-style-2):not(.nav-style-3):not(.show-nav-title):not(.nav-arrows-1).nav-svg-arrows-1 .owl-nav .owl-prev svg polygon {
-	fill: #FFF !important;
-	stroke: #FFF !important;
+	fill: #F4F4F4 !important;
+	stroke: #F4F4F4 !important;
 }
 
 .owl-carousel.nav-dark.nav-style-1 .owl-nav .owl-next,
@@ -5322,7 +5322,7 @@ body.dark .pagination > .active > a {
 }
 
 .owl-carousel.dots-light .owl-dots .owl-dot.active span, .owl-carousel.dots-light .owl-dots .owl-dot:hover span {
-	background: #FFF !important;
+	background: #F4F4F4 !important;
 }
 
 .owl-carousel.dots-dark .owl-dots .owl-dot span {
@@ -7002,7 +7002,7 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 	top: -7px;
 	left: -7px;
 	padding: 7px;
-	box-shadow: 0 0 0 3px #FFF;
+	box-shadow: 0 0 0 3px #F4F4F4;
 	transition: transform 0.2s, opacity 0.2s;
 	transform: scale(1);
 	opacity: 0;
@@ -7017,7 +7017,7 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 	top: -7px;
 	left: -7px;
 	padding: 7px;
-	box-shadow: 0 0 0 3px #FFF;
+	box-shadow: 0 0 0 3px #F4F4F4;
 	transition: transform 0.2s, opacity 0.2s;
 	transform: scale(0.8);
 	opacity: 0;
@@ -7031,7 +7031,7 @@ hr.pattern.pattern-2:after, .divider.pattern.pattern-2:after {
 .featured-box-effect-3 .icon-featured:after {
 	top: 0;
 	left: 0;
-	box-shadow: 0 0 0 10px #FFF;
+	box-shadow: 0 0 0 10px #F4F4F4;
 	transition: transform 0.2s, opacity 0.2s;
 	transform: scale(0.9);
 	opacity: 0;
@@ -9175,7 +9175,7 @@ textarea:-ms-input-placeholder {
 .form-placeholders-light input[type="tel"]::-webkit-input-placeholder,
 .form-placeholders-light input[type="color"]::-webkit-input-placeholder,
 .form-placeholders-light textarea::-webkit-input-placeholder {
-	color: #FFF;
+	color: #F4F4F4;
 }
 
 .form-placeholders-light .form-control::-moz-placeholder,
@@ -9194,7 +9194,7 @@ textarea:-ms-input-placeholder {
 .form-placeholders-light input[type="tel"]::-moz-placeholder,
 .form-placeholders-light input[type="color"]::-moz-placeholder,
 .form-placeholders-light textarea::-moz-placeholder {
-	color: #FFF;
+	color: #F4F4F4;
 }
 
 .form-placeholders-light .form-control:-ms-input-placeholder,
@@ -9213,7 +9213,7 @@ textarea:-ms-input-placeholder {
 .form-placeholders-light input[type="tel"]:-ms-input-placeholder,
 .form-placeholders-light input[type="color"]:-ms-input-placeholder,
 .form-placeholders-light textarea:-ms-input-placeholder {
-	color: #FFF;
+	color: #F4F4F4;
 }
 
 /* Form - Bootstrap Override */
@@ -9507,7 +9507,7 @@ input[type="search" i]::-webkit-search-cancel-button {
 
 .search-with-select .search-form-wrapper .search-form-select-wrapper .custom-select-1 select {
 	background-color: transparent;
-	border: 1px solid #FFF;
+	border: 1px solid #F4F4F4;
 	border-top-width: 0;
 	border-bottom-width: 0;
 	border-radius: 0;
@@ -10138,7 +10138,7 @@ input[type="search" i]::-webkit-search-cancel-button {
 }
 
 .form-range:focus::-webkit-slider-thumb {
-	box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem var(--primary-rgba-35);
+	box-shadow: 0 0 0 1px #F4F4F4, 0 0 0 0.25rem var(--primary-rgba-35);
 }
 
 /* Form Check - Skin */
@@ -10793,7 +10793,7 @@ i.pi.pi-porto-brand:after {
 	content: '';
 	width: 2em;
 	height: 2em;
-	border: 0.5em solid #FFF;
+	border: 0.5em solid #F4F4F4;
 	border-radius: 100%;
 	position: absolute;
 	top: 50%;
@@ -10812,7 +10812,7 @@ i.pi.pi-close:before {
 	top: 50%;
 	left: 50%;
 	transform: translate3d(-50%, -50%, 0);
-	border-right: 1px solid #FFF;
+	border-right: 1px solid #F4F4F4;
 	height: 1em;
 }
 
@@ -10822,7 +10822,7 @@ i.pi.pi-close:after {
 	top: 50%;
 	left: 50%;
 	transform: translate3d(-50%, -50%, 0);
-	border-bottom: 1px solid #FFF;
+	border-bottom: 1px solid #F4F4F4;
 	width: 1em;
 }
 
@@ -11960,7 +11960,7 @@ ul.sitemap.list ul {
 	right: 0;
 	top: 0;
 	visibility: hidden;
-	background: #FFF !important;
+	background: #F4F4F4 !important;
 }
 
 body > .loading-overlay {
@@ -12610,7 +12610,7 @@ html.safari.iphone .bounce-loader .bounce3 {
 	transform: translate3d(-50%, 0, 0);
 	width: 0;
 	height: 0;
-	border-top: 7px solid #FFF;
+	border-top: 7px solid #F4F4F4;
 	border-left: 7px solid transparent;
 	border-right: 7px solid transparent;
 }
@@ -13804,7 +13804,7 @@ Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 }
 
 .particle.particle-repeating-lines.bg-light {
-	background: repeating-linear-gradient(-55deg, var(--light-rgba-0) 0.8px, #FFF 1.6px, #FFF 3px, var(--light-rgba-0) 3.8px, var(--light-rgba-0) 10px) !important;
+	background: repeating-linear-gradient(-55deg, var(--light-rgba-0) 0.8px, #F4F4F4 1.6px, #F4F4F4 3px, var(--light-rgba-0) 3.8px, var(--light-rgba-0) 10px) !important;
 }
 
 .particle.particle-repeating-lines.bg-dark {
@@ -14002,7 +14002,7 @@ Credits: Codyhouse (https://codyhouse.co/gem/360-degrees-product-viewer)
 /* Popup */
 .popup-inline-content,
 .mfp-content .ajax-container {
-	background: none repeat scroll 0 0 #FFF;
+	background: none repeat scroll 0 0 #F4F4F4;
 	margin: 40px auto;
 	max-width: 1170px;
 	padding: 20px 30px;
@@ -16664,7 +16664,7 @@ html.side-panel.side-panel-open.side-panel-push.side-panel-right .body {
 	left: 49%;
 	width: 23px;
 	height: 34px;
-	border: 1px solid #FFF;
+	border: 1px solid #F4F4F4;
 	border-radius: 15px;
 	transform: translate3d(-50%, -50%, 0);
 }
@@ -16674,7 +16674,7 @@ html.side-panel.side-panel-open.side-panel-push.side-panel-right .body {
 	width: 6px;
 	height: 10px;
 	border-radius: 10px;
-	border: 1px solid #FFF;
+	border: 1px solid #F4F4F4;
 	position: absolute;
 	top: 19px;
 	left: 49%;
@@ -16752,8 +16752,8 @@ html.side-panel.side-panel-open.side-panel-push.side-panel-right .body {
 	top: 50%;
 	width: 0.8em;
 	height: 0.8em;
-	border-top: 1px solid #FFF;
-	border-left: 1px solid #FFF;
+	border-top: 1px solid #F4F4F4;
+	border-left: 1px solid #F4F4F4;
 	transition: ease opacity 400ms;
 	font-size: inherit;
 	opacity: 0.7;
@@ -16762,7 +16762,7 @@ html.side-panel.side-panel-open.side-panel-push.side-panel-right .body {
 .tparrows.arrows-style-2.tp-leftarrow:after, .tparrows.arrows-style-2.tp-rightarrow:after {
 	content: '';
 	display: block;
-	border-top: 1px solid #FFF;
+	border-top: 1px solid #F4F4F4;
 	transition: ease opacity 400ms;
 	width: 1.5em;
 	position: absolute;
@@ -18007,7 +18007,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 
 .tabs-right .nav-tabs > li .nav-link.active, .tabs-right .nav-tabs > li .nav-link.active:hover, .tabs-right .nav-tabs > li .nav-link.active:focus {
 	border-right: 3px solid var(--grey-500);
-	border-left: 1px solid #FFF;
+	border-left: 1px solid #F4F4F4;
 }
 
 /* Justified */
@@ -18041,7 +18041,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 }
 
 .nav-tabs.nav-justified li .nav-link.active {
-	border-bottom: 1px solid #FFF;
+	border-bottom: 1px solid #F4F4F4;
 }
 
 .nav-tabs.nav-justified li .nav-link.active, .nav-tabs.nav-justified li .nav-link.active:hover, .nav-tabs.nav-justified li .nav-link.active:focus {
@@ -18056,7 +18056,7 @@ html.gecko .sort-destination.sort-destination-margin > [class*="col-"] {
 }
 
 .nav-tabs.nav-justified li .nav-link.active:hover {
-	border-bottom: 1px solid #FFF;
+	border-bottom: 1px solid #F4F4F4;
 }
 
 /* Bottom Tabs with Justified Nav */
@@ -18940,11 +18940,11 @@ html[dir="rtl"] .tabs.tabs-vertical.tabs-right .nav-tabs li .nav-link:hover html
 }
 
 .testimonial.testimonial-style-3.testimonial-style-3-light blockquote {
-	background: #FFF !important;
+	background: #F4F4F4 !important;
 }
 
 .testimonial.testimonial-style-3.testimonial-style-3-light .testimonial-arrow-down {
-	border-top: 10px solid #FFF !important;
+	border-top: 10px solid #F4F4F4 !important;
 }
 
 /* Style 4 */
@@ -20293,7 +20293,7 @@ section.timeline .timeline-date {
 	padding: 5px;
 	border: 1px solid #E5E5E5;
 	margin: 0 auto 10px;
-	text-shadow: 0 1px 1px #fff;
+	text-shadow: 0 1px 1px #F4F4F4;
 	border-radius: var(--border-radius);
 	background: var(--light);
 	z-index: 1;
@@ -20372,7 +20372,7 @@ section.timeline .timeline-box.left {
 section.timeline .timeline-box.left:before {
 	background: none repeat scroll 0 0 #E5E5E5;
 	border-radius: 50%;
-	box-shadow: 0 0 0 3px #FFF, 0 0 0 6px #E5E5E5;
+	box-shadow: 0 0 0 3px #F4F4F4, 0 0 0 6px #E5E5E5;
 	content: "";
 	display: block;
 	height: 7px;
@@ -20410,7 +20410,7 @@ section.timeline .timeline-box.right {
 section.timeline .timeline-box.right:before {
 	background: none repeat scroll 0 0 #E5E5E5;
 	border-radius: 50%;
-	box-shadow: 0 0 0 3px #FFF, 0 0 0 6px #E5E5E5;
+	box-shadow: 0 0 0 3px #F4F4F4, 0 0 0 6px #E5E5E5;
 	content: "";
 	display: block;
 	height: 7px;
@@ -20508,7 +20508,7 @@ section.timeline .timeline-box .owl-carousel {
 section.timeline .timeline-box.left:before,
 section.timeline .timeline-box.right:before {
 	background: var(--primary);
-	box-shadow: 0 0 0 3px #FFF, 0 0 0 6px var(--primary);
+	box-shadow: 0 0 0 3px #F4F4F4, 0 0 0 6px var(--primary);
 }
 
 /* History - Skin */
