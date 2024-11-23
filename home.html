@@ -63,70 +63,108 @@
 <body data-plugin-scroll-spy data-plugin-options="{'target': '#header'}">
   <div class="body">
     <header id="header" class="header-transparent header-effect-shrink header-no-border-bottom"
-      data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
-      <div class="header-body border-0 box-shadow-none bg-custom-dark">
-        <div class="header-container container container-xl-custom">
-          <div class="header-row">
-            <div class="header-column flex-row">
-              <div class="header-logo d-lg-none">
-                <a href="demo-band.html">
-                  <img src="img/sblogo.png" class="img-fluid" width="112" height="30" alt="" />
-                </a>
-              </div>
-              <div class="header-nav p-0">
+    data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 70}">
+    <div class="header-body border-0 box-shadow-none bg-custom-dark">
+      <div class="header-container container container-xl-custom">
+        <div class="header-row align-items-center">
+          <div class="header-column flex-row">
+            <div class="header-logo">
+              <a href="index.html">
+                <img src="img/sblogo.png" class="img-fluid" width="112" height="30" alt="Logo de Silvia Brasero" />
+              </a>
+            </div>
+          </div>
+          <div class="header-column flex-row justify-content-end align-items-center">
+            <div class="header-nav p-0">
+              <div
+                class="header-nav header-nav-line header-nav-bottom-line header-nav-light-text header-nav-line-under-text header-nav-bottom-line-effect-1 justify-content-start">
                 <div
-                  class="header-nav header-nav-line header-nav-bottom-line header-nav-light-text header-nav-line-under-text header-nav-bottom-line-effect-1 justify-content-start">
-                  <div
-                    class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
-                    <nav class="collapse">
-                      <ul class="nav nav-pills flex-column flex-lg-row" id="mainNav">
-                        <li>
-                          <a data-hash data-hash-offset="0" data-hash-offset-lg="70" href="#home"
-                            class="nav-link active">INICIO</a>
-                        </li>
-                        <li>
-                          <a data-hash data-hash-offset="0" data-hash-offset-lg="70" href="#about"
-                            class="nav-link">SOBRE MÍ</a>
-                        </li>
-                        <li>
-                          <a href="#hiddenContactForm" data-bs-toggle="collapse" role="button" aria-expanded="false"
-                            aria-controls="hiddenContactForm" data-scroll-and-focus class="nav-link">CONTACTO</a>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div>
+                  class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+                  <nav class="collapse">
+                    <ul class="nav nav-pills flex-column flex-lg-row" id="mainNav">
+                      <li class="nav-item">
+                        <a data-hash data-hash-offset="0" data-hash-offset-lg="70" href="#home"
+                          class="nav-link active">INICIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a data-hash data-hash-offset="0" data-hash-offset-lg="70" href="#about"
+                          class="nav-link">SOBRE MÍ</a>
+                      </li>
+                      <li class="nav-item">
+                        <a href="#contact" data-hash data-hash-offset="0" data-hash-offset-lg="70" class="nav-link">CONTACTO</a>
+                      </li>
+                    </ul>
+                  </nav>
                 </div>
               </div>
             </div>
-            <div
-              class="header-column flex-row flex-lg-column justify-content-end justify-content-lg-center align-items-center align-items-lg-end">
-              <ul class="list list-inline list-unstyled mb-0 d-none d-md-block">
-                <li class="list-inline-item hover-effect-2 mb-0 me-0">
-                  <a href="https://www.instagram.com/silvibrasero/"
-                    class="text-decoration-none font-weight-bold text-color-light text-1" target="_blank">
-                    <i class="fab fa-instagram text-5 position-relative top-2 me-1"></i>
-                    INSTAGRAM
-                  </a>
-                </li>
-                <li class="list-inline-item hover-effect-2 mb-0 mx-2 px-3">
-                </li>
-                <li class="list-inline-item hover-effect-2 mb-0">
-                  <a href="https://www.facebook.com/share/u1vRjLFw6w3JAYjA/?mibextid=LQQJ4d"
-                    class="text-decoration-none font-weight-bold text-color-light text-1" target="_blank">
-                    <i class="fab fa-facebook-f text-5 position-relative top-2 me-1"></i>
-                    FACEBOOK
-                  </a>
-                </li>
-              </ul>
-              <button class="btn header-btn-collapse-nav ms-5" data-bs-toggle="collapse"
-                data-bs-target=".header-nav-main nav">
-                <i class="fas fa-bars"></i>
-              </button>
-            </div>
+            <ul class="list list-inline list-unstyled mb-0 ms-3 d-none d-md-flex align-items-center">
+              <li class="list-inline-item me-3">
+                <a href="https://www.instagram.com/silvibrasero/" class="text-decoration-none font-weight-bold text-1" target="_blank" style="color: #F4F4F4;">
+                  <i class="fab fa-instagram text-5 me-1" style="color: #F4F4F4;"></i> INSTAGRAM
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.facebook.com/share/u1vRjLFw6w3JAYjA/?mibextid=LQQJ4d" class="text-decoration-none font-weight-bold text-1" target="_blank" style="color: #F4F4F4;">
+                  <i class="fab fa-facebook-f text-5 me-1" style="color: #F4F4F4;"></i> FACEBOOK
+                </a>
+              </li>
+            </ul>
+            <button class="btn header-btn-collapse-nav ms-3" data-bs-toggle="collapse"
+              data-bs-target=".header-nav-main nav">
+              <i class="fas fa-bars"></i>
+            </button>
           </div>
         </div>
       </div>
-    </header>
+    </div>
+  </header>
+  
+  <!-- Estilos CSS personalizados para el header -->
+  <style>
+    /* Cambiar el color del efecto hover en los elementos del menú */
+    .header-nav-main nav > ul > li > a {
+      color: #F4F4F4;
+      font-weight: bold;
+    }
+  
+    .header-nav-main nav > ul > li > a:hover,
+    .header-nav-main nav > ul > li.active > a {
+      color: #DDDBD2 !important;
+    }
+  
+    /* Cambiar el color de la línea inferior en el hover */
+    .header-nav-line .header-nav-main nav > ul > li > a:after {
+      background-color: #DDDBD2 !important;
+    }
+  
+    /* Ajustar el espaciado entre los iconos de redes sociales */
+    .header-column .list-inline-item {
+      margin-bottom: 0;
+    }
+  
+    .header-column .list-inline-item a {
+      color: #F4F4F4;
+    }
+  
+    .header-column .list-inline-item a:hover {
+      color: #DDDBD2;
+    }
+  
+    /* Alinear verticalmente los elementos en el header */
+    .header-row {
+      align-items: center;
+    }
+  
+    /* Estilos para el botón del menú en móviles */
+    .header-btn-collapse-nav {
+      color: #F4F4F4;
+    }
+  
+    .header-btn-collapse-nav:hover {
+      color: #DDDBD2;
+    }
+  </style>
 
     <div role="main" class="main">
       <!-- Archivo CSS (style.css) -->
@@ -464,14 +502,14 @@
                 <div class="overflow-hidden mb-3">
                   <p class="font-weight-bold text-4 mb-0 appear-animation" style="color: #625548;"
                     data-appear-animation="maskUp" data-appear-animation-delay="700">
-                    Puedes escribirme al siguiente correo electrónico silviagestionmusical@gmail.com:
+                    Puedes escribirme al siguiente correo electrónico:
                   </p>
                   <!-- Botón de Contacto -->
                   <p class="font-weight-bold text-4 mb-0 appear-animation" data-appear-animation="maskUp"
                     data-appear-animation-delay="800">
                     <a href="mailto:silviagestionmusical@gmail.com" class="btn btn-lg mt-3"
                       style="background-color: #625548; color: #F4F4F4; border-color: #625548;">
-                      Contáctame!
+                      silviagestionmusical@gmail.com
                     </a>
                   </p>
                 </div>
@@ -481,29 +519,28 @@
         </div>
         <div class="py-5" style="background-color: #625548;">
           <div class="container-fluid py-4 px-5">
-            <div class="row justify-content-between">
-              <div class="col-4 mb-4 mb-md-0">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-4 mb-0">
                 <a href="demo-band.html">
-                  <img src="img/demos/band/logo.png" class="img-fluid" alt="" width="112" height="30" />
+                  <img src="img/demos/band/logo.png" class="img-fluid" alt="Logo de la banda" width="112" height="30" />
                 </a>
               </div>
-              <div class="col-4" style="text-align: center;">
+              <div class="col-4 text-center">
                 <p class="font-weight-light mb-0" style="color: #F4F4F4; opacity: 0.4;">
-                  © Copyright 2024. All Rights Reserved.
+                  © Derechos de autor 2024. Todos los derechos reservados.
                 </p>
               </div>
-              <div class="col-4" style="text-align: right;">
+              <div class="col-4 text-end">
                 <ul class="list list-inline list-unstyled mb-0">
-                  <li class="list-inline-item me-0 mb-0">
-                    <a href="https://www.instagram.com/silvibrasero/" class="font-weight-bold" target="_blank"
-                      style="color: #F4F4F4;"><i class="fab fa-instagram me-1" style="color: #F4F4F4;"></i>
-                      INSTAGRAM</a>
+                  <li class="list-inline-item me-3 mb-0">
+                    <a href="https://www.instagram.com/silvibrasero/" class="font-weight-bold" target="_blank" style="color: #F4F4F4;" aria-label="Instagram">
+                      <i class="fab fa-instagram me-1" style="color: #F4F4F4;"></i> INSTAGRAM
+                    </a>
                   </li>
                   <li class="list-inline-item mb-0">
-                    <a href="https://www.facebook.com/share/u1vRjLFw6w3JAYjA/?mibextid=LQQJ4d" class="font-weight-bold"
-                      target="_blank" style="color: #F4F4F4;"><i class="fab fa-facebook-f me-1"
-                        style="color: #F4F4F4;"></i>
-                      FACEBOOK</a>
+                    <a href="https://www.facebook.com/share/u1vRjLFw6w3JAYjA/?mibextid=LQQJ4d" class="font-weight-bold" target="_blank" style="color: #F4F4F4;" aria-label="Facebook">
+                      <i class="fab fa-facebook-f me-1" style="color: #F4F4F4;"></i> FACEBOOK
+                    </a>
                   </li>
                 </ul>
               </div>
