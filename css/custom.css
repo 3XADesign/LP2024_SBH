@@ -204,3 +204,17 @@ body {
   background-color: #625548 !important;
   color: #F4F4F4 !important;
 }
+
+.section-background {
+  background: url('img/bg-1.jpg') center center / cover no-repeat;
+  position: relative;
+}
+
+.overlay-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(98, 85, 72, 0.5); /* Un overlay semi-transparente en marrón */
+}
