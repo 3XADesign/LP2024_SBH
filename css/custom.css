@@ -176,3 +176,31 @@ body {
 body {
   background-color: #F4F4F4 !important;
 }
+
+/* Estilos para el botón del menú en móviles */
+.header-btn-collapse-nav {
+  background-color: #625548 !important; /* Color marrón corporativo */
+  border: none !important;
+  color: #F4F4F4 !important; /* Color del icono (blanco o claro) */
+}
+
+.header-btn-collapse-nav:hover {
+  background-color: #DDDBD2 !important; /* Marrón más claro al pasar el mouse */
+  color: #625548 !important; /* Color del icono cambia a marrón oscuro */
+}
+
+.header-btn-collapse-nav:focus {
+  box-shadow: none !important; /* Elimina el borde de enfoque */
+}
+
+.header-btn-collapse-nav i {
+  color: inherit; /* Asegura que el icono tome el color definido en el botón */
+}
+
+/* Asegurar que no tenga estilos de Bootstrap que lo hagan rojo */
+.header-btn-collapse-nav:not(:disabled):not(.disabled):active,
+.header-btn-collapse-nav:not(:disabled):not(.disabled).active,
+.show > .header-btn-collapse-nav.dropdown-toggle {
+  background-color: #625548 !important;
+  color: #F4F4F4 !important;
+}
